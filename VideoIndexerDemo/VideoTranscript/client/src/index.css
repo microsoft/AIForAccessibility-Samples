@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-darknav {
+  background-color: #0078d4!important;
+}
+
+.navbar {
+  min-height: 75px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF;
+  font-weight: 600;
+  /* push down to accomodate user image*/
+  position: relative;
+  top: .4rem;
+}
+
+.nav-link .person {
+  position: relative;
+  top: -3px;
+}
+
+.nav-link .person .username {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1rem;
+  white-space: nowrap;
+  display:none;
+}
+/*a.userinfo.nav-link {
+  position: relative;
+  top: 0 !important;
+}
+*/
+
+.navbar-nav li.nav-item {
+  margin: 0 3px;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  outline: 2px solid #CCCCCC;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+  outline: 2px solid #CCCCCC;
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover {
+  color: #FFFFFF;
+  outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #FFFFFF;
+  background:#0078d4;
+  text-decoration:underline;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:#FFFFFF !important;
+}
+.navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 1px solid #CCCCCC;
+}
+
+.navbar-dark .navbar-toggler:hover, .navbar-dark .navbar-toggler:focus {
+  border: 2px solid #FFFFFF;
+  outline-color: transparent;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  white-space: normal;
+  font-size: .9rem;
+  margin-right: .55px
+}
+
+i.fa.fa-facebook {
+  color: white;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.my-facebook-button-class {
+  background-color: rgb(59, 89, 152);
+  height: 50px;
+  border: 0px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  margin: 5px;
+  width: 250px;
+  overflow: hidden;
+  padding: 0px 10px;
+}
+
+.googleIcon >button {
+  border: 0px !important;
+  border-radius: 3px !important;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px !important;
+  margin: 5px !important;
+  width: 250px !important;
+  overflow: hidden !important;
+  padding: 0px 10px !important;
+  height: 50px !important;
+  background-color: rgb(165, 51, 28) !important;
+}
+
+.googleIcon span {
+  display:none !important;
+}
+
+.googleIcon >button >div {
+  background-color: rgb(165, 51, 28) !important;
+}
+
+.googleIcon >button >div:after {
+  content: 'Login with Google' !important;
+  margin-left:10px !important;
+}
+
+/* .nav-anchorLink {
+  color:#0067b8
+}
+
+.nav-anchorLink:hover {
+  color:#0067b8;
+  text-decoration:underline;
+}
+.nav-anchorLink:focus {
+  color:#0067b8;
+  text-decoration:underline;
+} */
+
+.margin {
+  margin:6px !important;
+}
+
+.record,
+.submit {
+    margin-left: 15px;
+}
+
+.margin-left{
+  margin-left:30px;
+}
