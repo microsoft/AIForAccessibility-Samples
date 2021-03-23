@@ -8,24 +8,8 @@
   var cookieParser = require('cookie-parser');
   const cors = require('cors');
   var createError = require('http-errors');
-  // mongodb://ai-accessibility:19DqsXhcgkgAO1e159WlaajBSb7xy8vHrRs424F2G2tCnfA8iCyvPf8CCuG9PgV4b4K7mL79JnEt4Jv9ur8gZQ==@ai-accessibility.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ai-accessibility@
-  // mongoose.connect("mongodb://"+process.env.COSMOSDB_HOST+":"+process.env.COSMOSDB_PORT+"/"+process.env.COSMOSDB_DBNAME+"?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=ai-accessibility", { 
-  // mongoose.connect("mongodb://ai-accessibility.mongo.cosmos.azure.com:10255/ai_videos?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=ai-accessibility", {   
-  // auth: {
-  //     user: process.env.COSMOSDB_USER,
-  //     password: process.env.COSMOSDB_PASSWORD
-  //   } 
-  // }, function(err) {
-  //   if (err) {
-  //     throw err;
-  //   } else {
-  //     //console.log(`Successfully connected to ${mongo_uri}`);
-  //   }
-  // });
 
-  //var connString1="mongodb://ai-accessibility:19DqsXhcgkgAO1e159WlaajBSb7xy8vHrRs424F2G2tCnfA8iCyvPf8CCuG9PgV4b4K7mL79JnEt4Jv9ur8gZQ==@ai-accessibility.mongo.cosmos.azure.com:10255/ai_videos?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ai-accessibility@"
   var connString1=process.env.COSMOSDB_CONNECTION_STRING;
-  //var connString="mongodb://ai-accessibility123:iKOd4kHGon7ZpBBh44wswTfxP3UgYIZ7saFy8n95lvUAwDyAkgLzVTqXPR1ppxLkOIIjapEkTsY3GmkhlS3rUQ==@ai-accessibility123.mongo.cosmos.azure.com:10255/ai_videos?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ai-accessibility123@"
   mongoose.connect(connString1, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
