@@ -17,7 +17,7 @@ jsonschema==3.2.0
 msgpack==0.6.1
 nltk==3.5.0
 numpy==1.19.0
-Pillow==7.1.2
+Pillow==8.2.0
 pyrsistent==0.16.0
 pysrt==1.1.2
 python-dateutil==2.8.1
