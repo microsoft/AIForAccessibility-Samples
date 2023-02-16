@@ -29,5 +29,5 @@ Shapely==1.7.0
 six==1.15.0
 tqdm==4.46.1
 urllib3==1.25.9
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 zipp==3.1.0
